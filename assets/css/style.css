@@ -1,15 +1,10 @@
-body {
-    
-}
 header {
-    position: relative;
     height: 70px;
     padding: 20px;
     margin-bottom: 20px;
     background-color: #ffeeff;
 }
 .name {
-    position: relative;
     float: left;
     background-color: #4aaaa5;
     color: #eeeeee;
@@ -18,13 +13,12 @@ header {
     margin-left: 130px;
 }
 .contact, .portfolio, .about {
-    position: relative;
     top: 20px;
     float: right;
     padding: 10px;
 }
 .contact {
-    margin-right: 130px;
+    margin-right: 210px;
 }
 .about-me {
     float: left;
