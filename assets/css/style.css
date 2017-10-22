@@ -1,8 +1,13 @@
 header {
     height: 70px;
-    padding: 20px;
-    margin-bottom: 20px;
-    background-color: #ffeeff;
+    padding: 10px;
+    background-color: #fff;
+}
+body {
+    background-color: #c9b5c9;
+}
+.header {
+    border-bottom: 1px solid black;
 }
 .name {
     float: left;
@@ -10,25 +15,35 @@ header {
     color: #eeeeee;
     padding-right: 20px;
     padding-left: 20px;
-    margin-left: 130px;
+    margin-left: 150px;
+    line-height: 70px;
 }
 .contact, .portfolio, .about {
-    top: 20px;
     float: right;
     padding: 10px;
+    line-height: 50px;
+    background-color: #ffffff;
+}
+.contact, .portfolio {
+    border-left: 1px solid black;
 }
 .contact {
-    margin-right: 210px;
+    margin-right: 150px;
+    background-color: #efe;
 }
 .about-me {
     float: left;
     width: 650px;
+    margin-top: 20px;
     margin-left: 150px;
 }
 .connect-with-me {
     float: right;
     width: 270px;
+    margin-top: 20px;
     margin-right: 150px;
+    text-align: center;
+    background-color: #ffffff;
 }
 #icons {
     width: 50px;
