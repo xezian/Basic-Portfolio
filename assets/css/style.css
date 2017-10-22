@@ -1,28 +1,37 @@
 header {
-    height: 70px;
+    height: 90px;
     padding: 10px;
     background-color: #fff;
 }
 body {
     background-color: #c9b5c9;
 }
-.header {
+p {
+    position: relative;
+    float: left;
+    color: darkslategrey;
+}
+.headers {
     border-bottom: 1px solid black;
+    color: #4aaaa5;
 }
 .name {
+    position: absolute;
+    top: 0px;
     float: left;
     background-color: #4aaaa5;
     color: #eeeeee;
     padding-right: 20px;
     padding-left: 20px;
     margin-left: 150px;
-    line-height: 70px;
+    line-height: 90px;
 }
 .contact, .portfolio, .about {
     float: right;
     padding: 10px;
-    line-height: 50px;
+    line-height: 70px;
     background-color: #ffffff;
+    color: grey;
 }
 .contact, .portfolio {
     border-left: 1px solid black;
@@ -32,10 +41,13 @@ body {
     background-color: #efe;
 }
 .about-me {
+    background-color: #eeeeee;
     float: left;
     width: 650px;
     margin-top: 20px;
     margin-left: 150px;
+    padding: 20px;
+    padding-top: 10px;
 }
 .connect-with-me {
     float: right;
@@ -45,7 +57,23 @@ body {
     text-align: center;
     background-color: #ffffff;
 }
+#headers {
+    padding: 20px;
+}
+#profileimg {
+    float: left;
+    width: 200px;
+    margin: 20px;
+    border: 1px solid #4aaaa5;
+}
 #icons {
     width: 50px;
     height: 50px;
+}
+#soicon {
+    width: 44.67px;
+    height: 44.67px;
+    margin-bottom: 2px;
+    margin-left: 2.2px;
+    border: .5px solid rgba(255,115,0, 0.5);
 }
