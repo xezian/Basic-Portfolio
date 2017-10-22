@@ -11,6 +11,9 @@ p {
     float: left;
     color: darkslategrey;
 }
+.contents {
+    padding: 20px;
+}
 .headers {
     border-bottom: 1px solid black;
     color: #4aaaa5;
@@ -27,7 +30,7 @@ p {
     line-height: 90px;
 }
 .contact, .portfolio, .about {
-    float: right;
+    float: left;
     padding: 10px;
     line-height: 70px;
     background-color: #ffffff;
@@ -35,30 +38,47 @@ p {
 }
 .contact, .portfolio {
     border-left: 1px solid black;
-}
-.contact {
-    margin-right: 150px;
     background-color: #efe;
 }
-.about-me {
-    background-color: #eeeeee;
+.about {
+    margin-left: 900px;
+}
+.main-content {
     float: left;
-    width: 650px;
-    margin-top: 20px;
     margin-left: 150px;
-    padding: 20px;
-    padding-top: 10px;
+    margin-top: 20px;
+    width: 960px;
+}
+.about-me {
+    text-align: left;
+    background-color: #ffffff;
+    float: left;
+    width: 610px;
+    padding: 10px 20px;
 }
 .connect-with-me {
-    float: right;
-    width: 270px;
-    margin-top: 20px;
-    margin-right: 150px;
+    float: left;
+    width: 230px;
+    height: 150px;
+    margin-left: 40px;
     text-align: center;
     background-color: #ffffff;
 }
+.footer {
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    clear: both;
+    height: 70px;
+    padding: 10px;
+    color: #ffffff;
+    background-color: grey;
+    text-align: center;
+    line-height: 70px;
+    border-top: 10px solid #4aaaa5;
+}
 #headers {
-    padding: 20px;
+    padding: 10px 20px;
 }
 #profileimg {
     float: left;
