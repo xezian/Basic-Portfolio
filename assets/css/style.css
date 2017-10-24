@@ -22,8 +22,21 @@ p {
     background-color: #ffffff;
     font-family: 'Georgia', Times, Times 'Times New Roman', Times, serif, serif;
     font-size: 27px;
+    letter-spacing: 1.5px;
+    font-weight: bold;
     border-bottom: 2px solid #cccccc;
     margin-bottom: 10px;
+    color: #4aaaa5;
+}
+.subheaders {
+    background-color: #ffffff;
+    font-family: 'Georgia', Times, Times 'Times New Roman', Times, serif, serif;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    border-bottom: 2px solid #cccccc;
+    margin-bottom: 10px;
+    margin-top: 4.45px;
     color: #4aaaa5;
 }
 .top-content {
@@ -42,10 +55,41 @@ p {
     padding-left: 20px;
     line-height: 90px;
 }
+.form {
+    position: relative;
+}
+.submit {
+    font-family: 'Georgia', Times, Times 'Times New Roman', Times, serif, serif;
+    font-size: 16px;
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    background-color: #4aaaa5;
+    color: #eeeeee;
+    padding-right: 20px;
+    padding-left: 20px;
+    line-height: 30px;
+    border: 1px solid #cccccc;
+}
+.contact-label {
+    float: left;
+    margin-left: 10px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    letter-spacing: normal;
+    clear: both;
+    padding: 10px;
+    line-height: 10px;
+    background-color: #ffffff;
+    color: #777777;
+}
 .contact, .portfolio, .about {
     text-decoration: none;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 17px;
+    font-weight: normal;
+    letter-spacing: normal;
     float: right;
     padding: 10px;
     margin-top: 30px;
@@ -58,6 +102,13 @@ p {
 }
 .contact:hover, .portfolio:hover, .about:hover {
     background-color: rgb(218, 246, 248);
+}
+.contact-content, .portfolio-content {
+    margin-top: 110px;
+    height: 700px;
+    float: left;
+    margin-left: 16%;
+    width: 960px;
 }
 .main-content {
     margin-top: 110px;
@@ -117,6 +168,22 @@ p {
     border-top: 7px solid #4aaaa5;
     z-index: 2;
 }
+input::placeholder, textarea::placeholder {
+    color: #cccccc;
+}
+#name, #email, #message {
+    float: left;
+    width: 93%;
+    margin: 0px 20px 10px 20px;
+    padding: 5px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 13px;
+    color: #777777;
+    border: 1px solid #dfdfdf;
+}
+#message {
+    height: 200px;
+}
 #headers {
     padding: 10px 20px;
     margin-bottom: 20px;
@@ -148,4 +215,7 @@ p {
 #icons:hover {
     width: 53px;
     height: 53px;
+}
+#name {
+
 }
