@@ -5,7 +5,7 @@ header {
     height: 90px;
 }
 body {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
     background-image: url("../images/intersection/intersection.png");
 }
 /* Background pattern from Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/) */
@@ -13,14 +13,14 @@ p {
     color: #777777;
 }
 .contents {
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
     font-size: 17px;
     position: relative;
     padding: 10px 20px 20px 20px;
 }
 .headers {
     background-color: #ffffff;
-    font-family: 'Georgia', Times, Times 'Times New Roman', Times, serif, serif;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
     font-size: 27px;
     letter-spacing: 1.5px;
     font-weight: bold;
@@ -30,7 +30,7 @@ p {
 }
 .subheaders {
     background-color: #ffffff;
-    font-family: 'Georgia', Times, Times 'Times New Roman', Times, serif, serif;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
     font-size: 22px;
     font-weight: bold;
     letter-spacing: 1.5px;
@@ -48,7 +48,7 @@ p {
     line-height: 70px;
 }
 .name {
-    font-family: 'Georgia', Times, Times 'Times New Roman', Times, serif, serif;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
     font-size: 27px;
     float: left;
     background-color: #4aaaa5;
@@ -61,7 +61,7 @@ p {
     position: relative;
 }
 .submit {
-    font-family: 'Georgia', Times, Times 'Times New Roman', Times, serif, serif;
+    font-family: "Georgia", "Times", "Times New Roman", "serif";
     font-size: 16px;
     float: left;
     margin-left: 20px;
@@ -76,7 +76,7 @@ p {
 .contact-label {
     float: left;
     margin-left: 10px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
     font-size: 17px;
     font-weight: normal;
     letter-spacing: normal;
@@ -88,7 +88,7 @@ p {
 }
 .contact, .portfolio, .about {
     text-decoration: none;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
     font-size: 17px;
     font-weight: normal;
     letter-spacing: normal;
@@ -145,7 +145,7 @@ p {
     padding: 10px;
     color: #cccccc;
     font-size: 12px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
     background-color: #666666;
     text-align: center;
     line-height: 70px;
@@ -163,7 +163,7 @@ p {
     margin-top: 1900px;
     color: #cccccc;
     font-size: 12px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
     background-color: #666666;
     text-align: center;
     line-height: 70px;
@@ -182,7 +182,7 @@ input::placeholder, textarea::placeholder {
     width: 93%;
     margin: 0px 20px 10px 20px;
     padding: 5px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
     font-size: 13px;
     color: #777777;
     border: 1px solid #dfdfdf;
