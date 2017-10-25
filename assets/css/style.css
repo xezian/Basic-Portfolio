@@ -5,12 +5,24 @@ header {
     height: 90px;
 }
 body {
+    width: 100%;
     font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
     background-image: url("../images/intersection/intersection.png");
 }
 /* Background pattern from Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/) */
 p {
     color: #777777;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+.portfolio-item {
+    position: relative;
+    width: 48%;
+    margin-bottom: 20px;
 }
 .contents {
     font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
