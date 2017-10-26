@@ -236,6 +236,7 @@ input::placeholder, textarea::placeholder {
     float: left;
     width: 300px;
     transform: rotate(90deg);
+    -webkit-filter: brightness(250%) contrast(90%); 
     margin: 30px 20px 50px 20px;
     border: 1px solid #cccccc;
 }
