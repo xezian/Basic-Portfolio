@@ -1,6 +1,6 @@
 header {
     position: fixed;
-    z-index: 1;
+    z-index: 2;
     width: 100%;
     height: 90px;
 }
@@ -8,8 +8,12 @@ body {
     width: 100%;
     font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
     background-image: url("../images/intersection/intersection.png");
+    /* Background pattern from Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/) */
 }
-/* Background pattern from Subtle Patterns (https://www.toptal.com/designers/subtlepatterns/) */
+a, a:visited {
+    text-decoration: none;
+    color: #cccccc;
+}
 p {
     color: #777777;
 }
@@ -19,10 +23,15 @@ p {
 .right {
     float: right;
 }
-.portfolio-item {
-    position: relative;
-    width: 48%;
-    margin-bottom: 20px;
+h4 {
+    width: 100%;
+    color: #ffffff;
+    text-align: center;
+    background-color: rgba(11,173,167, 0.7);
+    padding: 15px 0;
+    margin-top: 30%;
+    position: absolute;
+    z-index: 1;
 }
 .contents {
     font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
@@ -98,7 +107,7 @@ p {
     background-color: #ffffff;
     color: #777777;
 }
-.contact, .portfolio, .about {
+.contact, .portfolio, .about, .contact:visited, .portfolio:visited, .about:visited {
     text-decoration: none;
     font-family: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
     font-size: 17px;
@@ -117,12 +126,31 @@ p {
 .contact:hover, .portfolio:hover, .about:hover {
     background-color: rgb(218, 246, 248);
 }
-.contact-content, .portfolio-content {
+.portfolio-box {
+    width: 45%;
+    height: 200px;
+    position: relative;
+    margin: 10px;
+    border: 1px solid #cccccc;
+}
+.portfolio-item {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.other-content {
     margin-top: 110px;
-    height: 700px;
     float: left;
     margin-left: 16%;
-    width: 960px;
+    height: 900px;
+}
+.portfolio-content {
+    float: left;
+    text-align: left;
+    background-color: #ffffff;
+    width: 608px;
+    padding: 10px;
+    border: 1px solid #cccccc;
 }
 .main-content {
     margin-top: 110px;
@@ -142,6 +170,7 @@ p {
 .connect-with-me {
     float: left;
     width: 228px;
+    clear: right;
     height: 150px;
     margin-left: 40px;
     text-align: center;
@@ -162,6 +191,7 @@ p {
     text-align: center;
     line-height: 70px;
     border-top: 7px solid #4aaaa5;
+    z-index: 2;
 }
 .trick-footer {
     position: relative;
@@ -180,7 +210,7 @@ p {
     text-align: center;
     line-height: 70px;
     border-top: 7px solid #4aaaa5;
-    z-index: 2;
+    z-index: 3;
 }
 input::placeholder, textarea::placeholder {
     color: #cccccc;
