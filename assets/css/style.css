@@ -80,6 +80,7 @@ h4 {
 }
 .form {
     position: relative;
+    margin-right: 11px;
 }
 .submit {
     font-family: "Georgia", "Times", "Times New Roman", "serif";
@@ -93,6 +94,9 @@ h4 {
     padding-left: 20px;
     line-height: 30px;
     border: 1px solid #cccccc;
+}
+.textfield {
+    background-color: rgba(11,173,167, 0.04);
 }
 .contact-label {
     float: left;
